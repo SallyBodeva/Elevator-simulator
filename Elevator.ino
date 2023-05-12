@@ -275,7 +275,7 @@ void door()
    }
    void tempP()
    {  
-     float temp = ((analogRead(A5) * (5.0/1023))-0.5)*100;		// les analogverdi, konverter til volt og deretter til temp i celsius
+     float temp = ((analogRead(A5) * (5.0/1023))-0.5)*100;	
      lcd.setCursor(0,1);
       lcd.write("Temp is");
 	   lcd.setCursor(9,1);
